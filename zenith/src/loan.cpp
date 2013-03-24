@@ -1,20 +1,21 @@
 /**
-  * foo
+  * @file loan.cpp
   *
   * @author Ian Lee
   */
 
-class Loan {
-public:
-  Loan();
-  ~Loan();
+#include "loan.h"
 
-private:
-  float principle;
-  float interest_rate;
-}
+Loan::Loan()
+  : mPrinciple(0.0f)
+  , mInterestRate(0.0f)
+  , mMinimumPayment(0.0f)
+{ }
 
-int main() {
+Loan::Loan(float principle, float interest_rate, float minimum_payment)
+  : mPrinciple(principle)
+  , mInterestRate(interest_rate)
+  , mMinimumPayment(minimum_payment)
+{ }
 
-  return 0;
-}
+Loan::~Loan() { }
