@@ -1,8 +1,10 @@
 /**
-  * foo
-  *
-  * @author Ian Lee
-  */
+ * @file main.cpp
+ *
+ * @brief  Main Function for Loan Calculator
+ * 
+ * @author Ian Lee
+ **/
 
 #include <iostream>
 #include <map>
